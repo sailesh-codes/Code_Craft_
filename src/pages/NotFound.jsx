@@ -1,5 +1,6 @@
 import NotStyles from "./styles/NotFound.module.css";
 import { Icon } from "@iconify/react";
+import { Link } from "wouter";
 
 function NotFound() {
   return (
@@ -9,9 +10,9 @@ function NotFound() {
         <div className={NotStyles.Where}>Where are we... ?</div>
       </div>
       <div className={NotStyles.ButtonWrapper}>
-        <a href="">
+        <Link href="/">
           <button>Back to Home</button>
-        </a>
+        </Link>
       </div>
       <div className={NotStyles.notFound}>
         <Icon icon={"ic:outline-info"} width={"1.3em"} />

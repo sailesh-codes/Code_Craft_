@@ -2,7 +2,6 @@ import style from "../styles/Sellout.module.css";
 import cycle from "../assets/cycle.svg";
 import dolla from "../assets/dolla.svg";
 import expand from "../assets/expand.svg";
-import { useRef } from "react";
 
 const items = [
   {

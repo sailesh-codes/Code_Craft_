@@ -1,9 +1,8 @@
 import PSt from "../styles/PortfolioDisplay.module.css";
 import EchoAI from "../assets/Portfolio images/EchoAI.png";
-import KSM from "@/assets/Portfolio images/KSM.png"
+import KSM from "@/assets/Portfolio images/KSM.png";
 import Megasifi from "@/assets/Portfolio images/Megasifi.png";
 import MoviePedia from "../assets/Portfolio images/MoviePedia.png";
-import { useState } from "react";
 
 const projectItems = [
   {

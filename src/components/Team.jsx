@@ -140,7 +140,7 @@ function Team() {
 
   const TeamRef = useRef(null);
 
-  const { width, height } = useViewport();
+  const { width } = useViewport();
 
   useEffect(() => {
     const tem = TeamRef.current;

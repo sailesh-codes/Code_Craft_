@@ -19,9 +19,26 @@
 }
 
 .ButtonWrapper {
-  button {
-    background: none;
-  }
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.ButtonWrapper button {
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: white;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  border-radius: 999px;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.ButtonWrapper button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.8);
 }
 
 .Where {
