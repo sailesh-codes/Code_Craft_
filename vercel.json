@@ -11,14 +11,22 @@
   ],
   "routes": [
     {
-      "src": "/api/contact",
-      "dest": "/api/contact"
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
+    },
+    {
+      "src": "/assets/(.*)",
+      "dest": "/assets/$1"
     },
     {
       "src": "/(.*)",
       "dest": "/index.html"
     }
   ],
-  "buildCommand": "npm run vercel-build",
-  "outputDirectory": "dist/public"
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
