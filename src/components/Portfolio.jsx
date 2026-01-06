@@ -3,7 +3,7 @@ import EchoAI from "../assets/Portfolio images/EchoAI.png";
 import KSM from "@/assets/Portfolio images/KSM.png";
 import Megasifi from "@/assets/Portfolio images/Megasifi.png";
 import MoviePedia from "../assets/Portfolio images/MoviePedia.png";
-
+import Studio6 from "../assets/Portfolio images/Studio6.png";
 const projectItems = [
   {
     name: "Megasifi",
@@ -11,6 +11,13 @@ const projectItems = [
       "Megasifi is a modern e-commerce platform offering a vareity of stylish collection",
     demo: "https://megasifi.shop",
     image: Megasifi,
+  },
+  {
+    name: "Studio6 Interiors",
+    description:
+      "Studio6 Interiors creates elegant, functional home and office interiors tailored to your style.",
+    demo: "https://studio6interiors.in",
+    image: Studio6,
   },
   {
     name: "K.S.M",
@@ -32,6 +39,7 @@ const projectItems = [
     demo: "https://echo-ai-one-xi.vercel.app",
     image: EchoAI,
   },
+  
 ];
 
 function Buttons({ Demo }) {
